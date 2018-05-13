@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        page title
+     </title>
+     <script type="text/javascript">
+            function validateForm()
+            {
+                if(document.myform.dob.value!="User1")
+                {
+                    alert("You must enter a valid password");
+                    return false;
+                }
+        
+            }
+        </script>
+     <style>
+      body{
+          background-color: lightslategrey;
+      }
+      h1.main{
+          text-align: center;
+          text-decoration: cornflowerblue;
+          color: palevioletred;
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+      }
+      h2.neelesh{
+          text-align: center;
+          color: mediumvioletred;
+          font-size: 30px;
+      }
+      form{
+          text-align: center;
+      }
+      text{
+          padding-bottom: 30px;
+          padding-top: 30px;
+      }
+      </style>
+	<script> 
+	 
+    alert("Please Enter Your Username and Password");
+
+</script>
+</head>
+<body >
+    <pre> 
+
+
+    <h1 class="main"> CITY GUIDE SYSTEM</h1>
+    <h2 class="neelesh"> WELCOME USER </h2>
+    <form name ="login" method="post" action="http://localhost:8080/SE%20lab/login.php">
+        Enter your details to continue<br>
+        <input type="text" name="username" value="" required> USERNAME <br>
+        <input type="password" name="password" value="" required >  PASSWORD <br>
+        <input type="submit" name="Enter" value="Enter" >
+    </form>
+</body>
+</html>

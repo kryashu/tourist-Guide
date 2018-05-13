@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script> 
+	  
+    alert("Welcome User");
+
+</script>
+	<script type='text/javascript'>alert(\"Welcome User")</script>
+        <title> MENU </title>
+        <style>
+            body{
+                    background-color: lightsteelblue;
+                    text-align: center;
+                    font-size: 30px;
+            }
+            #id1{
+                color: brown;
+                font-size: 30px;
+            }
+            #id2{
+                color: saddlebrown;
+                font-size: 30px;
+            }
+        </style>
+<body>
+    <br><br><br><br>
+ <b>   
+    <form id="id2" method="post" action= "http://localhost:8080/SE%20lab/search.php">
+        Search any Place By Name:<br><br>
+        <input type="text" name="Srch_val" value=""><br>
+		<input type="submit" value="Search"><br><br><br>
+    </form>
+	<form method="post" action = "http://localhost:8080/SE%20lab/Places.php">
+ <p>OR<br> Select any category of your choice:</p><br>
+<select name="list">
+  <option value="Malls" selected = "Selected">Malls</option>
+  <option value="Cafes">Cafes</option>
+  <option value="Restaurants">Restaurants</option>
+  <option value="Cinema Halls">Cinema Hall</option>
+  <option value="Historical Monuments"> Historical Monuments</option>
+  <option value="Parks">Parks</option>
+  <option value="Lakes"> Lakes </option>
+  <option value="Market"> Market </option>
+</select><br><br>
+<input type="submit" value="Submit">
+</form>
+  <a href="http://localhost:8080/SE%20lab/logout.php">logout</a> 
+</body>
+</html>
